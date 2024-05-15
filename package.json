@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "version": "1.0.0",
+  "version": "0.1.0",,
   "description": "tuna2134 personal ui library",
   "main": "dist/index.js",
   "scripts": {
