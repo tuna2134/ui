@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ts": "tsc",
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
