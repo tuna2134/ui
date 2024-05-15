@@ -17,14 +17,17 @@ const buttonVariants = tv({
             sm: "text-sm px-3 py-1.5",
             lg: "text-lg",
             xl: "text-xl",
-        }
-    }
-})
+        },
+    },
+});
 
 export const Button: React.FC<ButtonProps> = ({ color, size, ...props }) => {
     return (
-        <button className={buttonVariants({ color: color, size: size })} {...props}></button>
-    )
-}
+        <button
+            className={buttonVariants({ color: color, size: size })}
+            {...props}
+        ></button>
+    );
+};
 
 Button.displayName = "Button";

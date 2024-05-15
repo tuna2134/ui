@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:style": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "format": "prettier --write \"./**/*.{js,ts,tsx}\""
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "@types/react": "^18.3.2",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
     "react": "^18.3.1",
     "storybook": "^8.1.1",
     "tailwindcss": "^3.4.3",
