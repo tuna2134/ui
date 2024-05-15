@@ -8,7 +8,7 @@
     "build:style": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "format": "prettier --write \"./**/*.{js,ts,tsx}\""
+    "format": "prettier --write \"./src/**/*.{js,ts,tsx}\""
   },
   "keywords": [],
   "author": "",
@@ -27,6 +27,7 @@
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "react": "^18.3.1",
     "storybook": "^8.1.1",
     "tailwindcss": "^3.4.3",
