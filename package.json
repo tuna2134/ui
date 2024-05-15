@@ -2,7 +2,7 @@
   "name": "ui",
   "version": "1.0.0",
   "description": "tuna2134 personal ui library",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "run-s build:*",
