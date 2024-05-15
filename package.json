@@ -10,7 +10,7 @@
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "format": "prettier --write \"./src/**/*.{js,ts,tsx}\""
+    "format": "prettier --write ./src/**/*.{js,ts,tsx}"
   },
   "keywords": [],
   "author": "tuna2134",
