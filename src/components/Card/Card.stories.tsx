@@ -19,5 +19,6 @@ export const Default: Story = {
                 <p>一億年に一度の美少女</p>
             </>
         ),
+        className: "max-w-lg",
     },
 };
