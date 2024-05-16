@@ -22,7 +22,7 @@ jobs:
       run: pnpm build-storybook
     - uses: actions/upload-pages-artifact@v3
       with:
-        path: static-storybook
+        path: storybook-static
 
   deploy:
     needs: build
