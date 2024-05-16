@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@tuna2134/ui",
   "version": "0.1.0",
   "description": "tuna2134 personal ui library",
   "main": "dist/index.js",
