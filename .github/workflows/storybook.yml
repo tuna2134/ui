@@ -16,6 +16,8 @@ jobs:
       with:
         version: "9"
         run_install: false
+    - name: Install packages
+      run: pnpm install --frozen-lockfile
     - name: Build storybook
       run: pnpm build-storybook
     - uses: actions/upload-pages-artifact@v3
