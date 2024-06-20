@@ -35,10 +35,10 @@ importers:
         version: 8.1.7(@types/react@18.3.3)(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@storybook/react':
         specifier: ^8.1.1
-        version: 8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
+        version: 8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.2)
       '@storybook/react-vite':
         specifier: ^8.1.1
-        version: 8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.18.0)(typescript@5.4.5)(vite@5.2.11(@types/node@20.14.2))
+        version: 8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.18.0)(typescript@5.5.2)(vite@5.2.11(@types/node@20.14.2))
       '@storybook/test':
         specifier: ^8.1.1
         version: 8.1.7
@@ -58,7 +58,7 @@ importers:
         specifier: ^3.2.5
         version: 3.3.2
       prettier-plugin-tailwindcss:
-        specifier: ^0.6.4
+        specifier: ^0.6.0
         version: 0.6.4(prettier@3.3.2)
       storybook:
         specifier: ^8.1.1
@@ -67,8 +67,8 @@ importers:
         specifier: ^3.4.3
         version: 3.4.4
       typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
+        specifier: ^5.5.2
+        version: 5.5.2
 
 packages:
 
@@ -3702,8 +3702,8 @@ packages:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -4874,15 +4874,15 @@ snapshots:
     dependencies:
       '@sinclair/typebox': 0.27.8
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.1(typescript@5.4.5)(vite@5.2.11(@types/node@20.14.2))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.1(typescript@5.5.2)(vite@5.2.11(@types/node@20.14.2))':
     dependencies:
       glob: 7.2.3
       glob-promise: 4.2.2(glob@7.2.3)
       magic-string: 0.27.0
-      react-docgen-typescript: 2.2.2(typescript@5.4.5)
+      react-docgen-typescript: 2.2.2(typescript@5.5.2)
       vite: 5.2.11(@types/node@20.14.2)
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.2
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -5322,7 +5322,7 @@ snapshots:
       - prettier
       - supports-color
 
-  '@storybook/builder-vite@8.1.7(prettier@3.3.2)(typescript@5.4.5)(vite@5.2.11(@types/node@20.14.2))':
+  '@storybook/builder-vite@8.1.7(prettier@3.3.2)(typescript@5.5.2)(vite@5.2.11(@types/node@20.14.2))':
     dependencies:
       '@storybook/channels': 8.1.7
       '@storybook/client-logger': 8.1.7
@@ -5343,7 +5343,7 @@ snapshots:
       ts-dedent: 2.2.0
       vite: 5.2.11(@types/node@20.14.2)
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.2
     transitivePeerDependencies:
       - encoding
       - prettier
@@ -5652,13 +5652,13 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/react-vite@8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.18.0)(typescript@5.4.5)(vite@5.2.11(@types/node@20.14.2))':
+  '@storybook/react-vite@8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.18.0)(typescript@5.5.2)(vite@5.2.11(@types/node@20.14.2))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.1(typescript@5.4.5)(vite@5.2.11(@types/node@20.14.2))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.1(typescript@5.5.2)(vite@5.2.11(@types/node@20.14.2))
       '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
-      '@storybook/builder-vite': 8.1.7(prettier@3.3.2)(typescript@5.4.5)(vite@5.2.11(@types/node@20.14.2))
+      '@storybook/builder-vite': 8.1.7(prettier@3.3.2)(typescript@5.5.2)(vite@5.2.11(@types/node@20.14.2))
       '@storybook/node-logger': 8.1.7
-      '@storybook/react': 8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
+      '@storybook/react': 8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.2)
       '@storybook/types': 8.1.7
       find-up: 5.0.0
       magic-string: 0.30.10
@@ -5677,7 +5677,7 @@ snapshots:
       - typescript
       - vite-plugin-glimmerx
 
-  '@storybook/react@8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)':
+  '@storybook/react@8.1.7(prettier@3.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.2)':
     dependencies:
       '@storybook/client-logger': 8.1.7
       '@storybook/docs-tools': 8.1.7(prettier@3.3.2)
@@ -5703,7 +5703,7 @@ snapshots:
       type-fest: 2.19.0
       util-deprecate: 1.0.2
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.2
     transitivePeerDependencies:
       - encoding
       - prettier
@@ -7572,9 +7572,9 @@ snapshots:
       react: 18.3.1
       tween-functions: 1.2.0
 
-  react-docgen-typescript@2.2.2(typescript@5.4.5):
+  react-docgen-typescript@2.2.2(typescript@5.5.2):
     dependencies:
-      typescript: 5.4.5
+      typescript: 5.5.2
 
   react-docgen@7.0.3:
     dependencies:
@@ -8130,7 +8130,7 @@ snapshots:
       media-typer: 0.3.0
       mime-types: 2.1.35
 
-  typescript@5.4.5: {}
+  typescript@5.5.2: {}
 
   ufo@1.5.3: {}
 
